@@ -411,6 +411,46 @@
             </svg>
           </button>
         </div>
+        <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+        <form name="order_services">
+          <label class="modal-label" for="name"
+            >Имя
+            <div class="modal-icon">
+              <input type="name" name="name" class="modal-input" />
+              <svg class="modal-person-icon" width="18" height="18">
+                <use href="./image/icons.svg#icon-person-black"></use>
+              </svg>
+            </div>
+          </label>
+          <label class="modal-label" for="tel"
+            >Телефон
+            <div class="modal-icon">
+              <input type="tel" name="tel" class="modal-input" />
+              <svg class="modal-phone-icon" width="18" height="18">
+                <use href="./image/icons.svg#icon-phone-black"></use>
+              </svg>
+            </div>
+          </label>
+          <label class="modal-label" for="mail"
+            >Почта
+            <div class="modal-icon">
+              <input type="mail" name="mail" class="modal-input" />
+              <svg class="modal-email-icon" width="18" height="18">
+                <use href="./image/icons.svg#icon-email-black"></use>
+              </svg>
+            </div>
+          </label>
+          <label class="modal-label"
+            >Комментарий
+            <textarea
+              name="comment"
+              id="comment"
+              rows="10"
+              placeholder="Введите текст"
+              class="modal-textarea textarea"
+            ></textarea>
+          </label>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
